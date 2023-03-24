@@ -1,0 +1,23 @@
+html,
+body {
+  width: 100% !important;
+  height: 100% !important;
+} 
+.row{
+    margin: 0;
+}
+img{
+    width: 100% !important;
+}
+
+.featuredCard{
+    padding: 0% !important;
+}
+
+.card img{
+    width:100%;
+}
+
+.card-columns img{
+    height: 200px;
+}
