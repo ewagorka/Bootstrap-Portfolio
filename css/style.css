@@ -1,8 +1,62 @@
+:root{
+    --magnolia:#F4EDF7;
+    --amethyst: #A06CD5;
+    --royalPurple: #A06CD5;
+    --prusianBlue: #102B3F;
+    --gunmetal: #082730;
+}
+
 html,
 body {
   width: 100% !important;
   height: 100% !important;
+  background-color: var(--magnolia);
 } 
+.navbar{
+    background-color: var(--gunmetal) !important;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+.nav-item{
+    margin-left: 1rem;
+}
+.nav-item a{
+    color: var(--magnolia) !important;
+}
+
+.nav-link:hover{
+    color: var(--amethyst) !important;
+}
+
+.btn, .CTA{
+    background-color: var(--amethyst) !important;
+    border: var(--royalPurple) 1 solid !important;
+    color: var(--magnolia) !important;
+}
+
+.CTA:is(:hover, :focus, :focus-visible){
+    border: var(--royalPurple) 1 solid !important;
+    box-shadow: 0 0 0 0.2rem rgba(225, 0, 255, 0.25); 
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--magnolia) !important;
+}
+
+.navbar-brand i{
+    color: var(--amethyst);
+}
+
+
+
+
+
+
 .row{
     margin: 0;
 }
