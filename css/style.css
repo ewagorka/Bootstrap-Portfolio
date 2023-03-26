@@ -179,13 +179,20 @@ cursor: pointer;
 }
 
 #skills .row{
-    width: 80%;
     justify-self: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     margin-bottom: 3rem;
+}
+
+/*Smaller container area on large screens*/ 
+@media only screen and (min-width:1024px) {
+    #skills .row{
+        width:1000px;
+    }
+    
 }
 #skills .card{
     display: flex;
@@ -198,7 +205,7 @@ cursor: pointer;
     position: relative;
     border: none;
     padding-top: 60px;
-    margin-bottom: 2rem;
+    margin: 1rem 0.5rem;
 }
 
 #skills .card-body{
