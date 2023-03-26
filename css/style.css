@@ -12,6 +12,8 @@ body {
   height: 100% !important;
   background-color: var(--magnolia);
 } 
+
+/* Navigation */
 .navbar{
     background-color: var(--gunmetal) !important;
 }
@@ -35,6 +37,7 @@ body {
     background-color: var(--amethyst) !important;
     border: var(--royalPurple) 1 solid !important;
     color: var(--magnolia) !important;
+    border-radius: 8px;
 }
 
 .CTA:is(:hover, :focus, :focus-visible){
@@ -53,7 +56,34 @@ body {
 }
 
 
+/*Hero section*/
 
+#hero{
+    background-image: url(../images/gradient.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: max(40vw, 400px);
+    padding: 2rem 0rem;
+    margin-bottom: 3rem;
+}
+
+.jumbotron{
+    height: 100% !important;
+    background-color: transparent;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron h1, .jumbotron p{
+    color: var(--magnolia);
+    text-align: center;
+    line-height: 180% !important;
+}
 
 
 
