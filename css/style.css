@@ -1,5 +1,5 @@
 :root{
-    --magnolia:#F4EDF7;
+    --magnolia:#fbf3fe;
     --amethyst: #A06CD5;
     --royalPurple: #A06CD5;
     --prusianBlue: #102B3F;
@@ -85,7 +85,89 @@ body {
     line-height: 180% !important;
 }
 
+/* Work */
+#work{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    background: radial-gradient(circle, rgba(160,108,213,1) 0%, rgba(251,243,254,1) 70%);
+}
 
+#work h2{
+    padding-top: 1rem;
+    color: var(--prusianBlue);
+}
+#work h4{
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+#work .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+#featuredImage{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 1rem;
+    height: max(100%, 400px);
+}
+/*Add space between image and description when displayed vertically*/
+@media only screen and (max-width:991px){
+    #featuredImage{
+        margin-bottom: 2rem;
+    }
+    
+}
+
+.card{
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    height: 100%;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: all 0.5s ease-in-out;
+}
+
+.card img{
+    object-fit: cover;
+    height: 250px;
+    width:100%;
+    border-radius: 1rem 1rem 0 0;
+}
+.tags{
+    padding-bottom: 0.5rem;
+}
+
+.badge{
+    font-size: 14px;
+    padding: 5px 10px;
+    font-weight: 400;
+    border-radius: 8px;
+}
+
+.badge-primary{
+    background-color: var(--royalPurple);
+}
+
+.badge-secondary{
+    background-color: white;
+    color: var(--royalPurple);
+    border: var(--royalPurple) solid 1px;
+}
+
+.card:hover, #featuredImage:hover{
+box-shadow: 0px 4px 10px 1px var(--amethyst);
+transform: translateY(-10px);  
+cursor: pointer;
+}
 
 .row{
     margin: 0;
@@ -94,14 +176,4 @@ img{
     width: 100% !important;
 }
 
-.featuredCard{
-    padding: 0% !important;
-}
 
-.card img{
-    width:100%;
-}
-
-.card-columns img{
-    height: 200px;
-}
