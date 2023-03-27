@@ -30,10 +30,13 @@ Overall I'm a big fan of the final effect and how my portfolio turned out with t
 This project was made using HTML and CSS and Bootstrap 4.
 
 ## Deployed Website
-You can see my deployed website here: https://ewagorka.github.io/ewagorka-portfolio/
+You can see my deployed website here: https://ewagorka.github.io/Bootstrap-Portfolio/
+
 
 ## Deployed Website Screenshot
 ![Deployed Website Screenshot]( "Deployed Website Screenshot")
 
+## My previous portfolio page
+You can see my previous portfolio page here: https://ewagorka.github.io/ewagorka-portfolio/
 ## License
 Please refer to the LICENSE in the repo.
