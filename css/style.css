@@ -42,7 +42,7 @@ body {
 
 .CTA:is(:hover, :focus, :focus-visible){
     border: var(--royalPurple) 1 solid !important;
-    box-shadow: 0 0 0 0.2rem rgba(225, 0, 255, 0.25); 
+    box-shadow: 0 0 0 0.2rem rgba(164, 0, 186, 0.25); 
 }
 
 .navbar-brand{
