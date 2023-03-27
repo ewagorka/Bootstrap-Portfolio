@@ -34,7 +34,7 @@ You can see my deployed website here: https://ewagorka.github.io/Bootstrap-Portf
 
 
 ## Deployed Website Screenshot
-![Deployed Website Screenshot]( "Deployed Website Screenshot")
+![Deployed Website Screenshot](images/website-screenshot.png "Deployed Website Screenshot")
 
 ## My previous portfolio page
 You can see my previous portfolio page here: https://ewagorka.github.io/ewagorka-portfolio/
